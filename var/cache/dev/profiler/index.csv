@@ -1,0 +1,7 @@
+92fe19,127.0.0.1,GET,http://web2/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DAppBundle%253AUser%253Alogin,1504548166,7d505c,200
+7d505c,127.0.0.1,GET,http://web2/app_dev.php/create,1504548166,,200
+cd86c1,127.0.0.1,POST,http://web2/app_dev.php/login,1504548183,,302
+2bcf44,127.0.0.1,GET,http://web2/app_dev.php/,1504548186,,200
+40bbae,127.0.0.1,GET,http://web2/app_dev.php/create,1504548197,,200
+670b0f,127.0.0.1,GET,http://web2/app_dev.php/create,1504548209,0667af,200
+0667af,127.0.0.1,POST,http://web2/app_dev.php/create,1504548209,,500

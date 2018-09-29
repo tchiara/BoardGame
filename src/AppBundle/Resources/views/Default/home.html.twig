@@ -1,0 +1,35 @@
+{% extends 'AppBundle::base.html.twig' %}
+{% block content %}
+    <audio src="{{ asset('sounds/oie_1.mp3')}}" autoplay></audio>
+    <div class="row">
+        <div id="creation" class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading center"><img id="intro" src="{{ asset('images/intro.png')}}" alt="Le Quizz de l'Oie" /></div>
+                <div class="panel-body">
+                    <br></br>
+                    <p>Le jeu de l'oie est un jeu de société de parcours où l'on déplace des pions en fonction des résultats de deux dés.
+                        Traditionnellement, le jeu de l'oie comprend 63 cases disposées en spirale enroulée vers l'intérieur et comportant un certain nombre de pièges.
+                        Le but est d'arriver le premier à la dernière case. Le jeu de l'oie est un jeu de hasard pur.
+                    </p>
+                    <br></br>
+
+                    <img id="logo" src="{{ asset('images/jeu_de_l_oie.png')}}" alt="logo" title="jeu_de_l_oie_1" />
+                    <br></br>
+                    <p> Dans ce <strong>SUPER JEU DE L'OIE</strong> nous avons couplé le jeu de l'oie traditionnel à celui des quiz</p>
+                    <br></br>
+                    <p> Venez découvrir notre  QUIZ jeu de l'oie qui teste vos connaissances <strong>Seul ou en Multijoueurs </strong> !!!! </p>
+                    <br></br>
+                    <p> Veuillez consulter les règles du jeu modifié <a href="{{path('rules')}}">ici !!!!</a></p>
+                    <p>Pour jouer il faut être inscript
+                        <a href="{{path('user_register')}}">lien</a>
+                        et connecté
+                        <a href="{{path('home')}}">lien</a>
+                    </p>
+                    <br></br>
+                    <img id="logo" src="{{ asset('images/jeu_de_l_oie_2.jpg')}}" alt="logo" title="jeu_de_l_oie_2" />
+                    <br></br>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
